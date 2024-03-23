@@ -6,17 +6,27 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import MouseScroll from './components/MouseScroll';
 import Cursor from './components/Cursor';
+import TextSpan from './components/TextSpan';
 
 
 
 const App = () => {
+  const textBounce = (sentence) => {
+    return sentence.map((letter, index) => {
+     return(
+       <TextSpan key={index}>
+         {letter === " " ? "\u00A0" : letter}
+       </TextSpan>
+     )
+
+    })}
   return (
     <>
     <div>
     <Cursor />
     <div>
       <Navbar />
-      <Home />
+      <Home textBounce={textBounce}/>
       <MouseScroll />
       <About />
       <Skills />
