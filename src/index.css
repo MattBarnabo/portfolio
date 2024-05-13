@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		font-family: Raleway, sans-serif;
+	}
+}
+@layer components {
+	li {
+		@apply px-4; /* Apply padding to li elements */
+		@apply cursor-pointer; /* Apply cursor pointer to li elements */
+	}
+}
+
+.background {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("./assets/background.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.content-div {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+}
+
+.content-div:hover {
+	background-image: linear-gradient(
+		to right,
+		rgba(112, 157, 255, 0.1),
+		hsla(240, 74%, 61%, 0.3)
+	) !important;
+}
+
+.mouse-div {
+	width: 40px;
+	height: 65px;
+	border: 2px solid #dc2626;
+	border-radius: 60px;
+}
+
+.mouse-div::before {
+	content: "";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 30px;
+	background: #dc2626;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	opacity: 1;
+	animation: mouse 2.5s infinite;
+}
+
+@keyframes mouse {
+	from {
+		opacity: 1;
+		top: 15px;
+	}
+	to {
+		opacity: 0;
+		top: 45px;
+	}
+}
+
+.cursor {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #dc2626;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transform: translate(-100%, -100%);
+	transition: 0.1ms;
+}
+
+.cursor2 {
+	position: fixed;
+	width: 8px;
+	height: 8px;
+	background-color: #dc2626;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	transition: 0.15ms;
+}
+
+.content:hover ~ .cursor {
+	transform: translate(-50%, -50%) scale(1.5);
+	background-color: #dc2626;
+	opacity: 0.5;
+}
+.button:hover {
+	color: #dc2626;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
