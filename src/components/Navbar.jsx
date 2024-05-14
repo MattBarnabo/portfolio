@@ -8,9 +8,7 @@ import { Link } from "react-scroll"
 const Navbar = () => {
 	const [nav, setNav] = useState(false)
 	const handleClick = () => setNav(!nav)
-	const handleLogoClick = () => {
-		return <Link to="home" smooth={true} duration={500}></Link>
-	}
+
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[transparent ] text-gray-300">
 			<div>
