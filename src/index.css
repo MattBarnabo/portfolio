@@ -38,7 +38,7 @@
 .mouse-div {
 	width: 40px;
 	height: 65px;
-	border: 2px solid #dc2626;
+	border: 2px solid #f30ec6;
 	border-radius: 60px;
 }
 
@@ -48,7 +48,7 @@
 	height: 10px;
 	position: absolute;
 	top: 30px;
-	background: #dc2626;
+	background: #f30ec6;
 	left: 50%;
 	transform: translateX(-50%);
 	border-radius: 50%;
@@ -71,7 +71,7 @@
 	position: fixed;
 	width: 50px;
 	height: 50px;
-	border: 1px solid #dc2626;
+	border: 1px solid F30EC6;
 	border-radius: 50%;
 	left: 0;
 	top: 0;
@@ -84,7 +84,7 @@
 	position: fixed;
 	width: 8px;
 	height: 8px;
-	background-color: #dc2626;
+	background-color: F30EC6;
 	border-radius: 50%;
 	left: 0;
 	top: 0;
@@ -95,11 +95,11 @@
 
 .content:hover ~ .cursor {
 	transform: translate(-50%, -50%) scale(1.5);
-	background-color: #dc2626;
+	background-color: F30EC6;
 	opacity: 0.5;
 }
 .button:hover {
-	color: #dc2626;
+	color: #f30ec6;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");

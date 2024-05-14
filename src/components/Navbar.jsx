@@ -77,7 +77,7 @@ const Navbar = () => {
 			</ul>
 
 			{/* Hamburger menu */}
-			<div onClick={handleClick} className="md:hidden z-10">
+			<div onClick={handleClick} className="md:hidden">
 				{!nav ? <FaBars /> : <FaTimes />}
 			</div>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
 				className={
 					!nav
 						? "hidden"
-						: "absolute top-0 left-0 w-full h-screen bg-[#000201] flex flex-col justify-center items-center"
+						: "absolute top-0 left-0 w-full h-screen bg-[#000201] flex flex-col justify-center items-center -z-50 !important"
 				}
 			>
 				<li className="py-6 text-4xl">
@@ -153,6 +153,7 @@ const Navbar = () => {
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://www.linkedin.com/in/mattbarnabo/"
+							target="_blank"
 						>
 							Linkedin <FaLinkedin size={30} />
 						</a>
@@ -161,6 +162,7 @@ const Navbar = () => {
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://github.com/MattBarnabo"
+							target="_blank"
 						>
 							GitHub
 							<FaGithub size={30} />
@@ -170,6 +172,7 @@ const Navbar = () => {
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://mail.google.com/mail/?view=cm&fs=1&to=mattbarnabo@gmail.com&su=SUBJECT&body=BODY&bcc=mattbarnabo@gmail.com"
+							target="_blank"
 						>
 							Email <HiOutlineMail size={30} />
 						</a>
@@ -178,6 +181,7 @@ const Navbar = () => {
 						<a
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://docs.google.com/document/d/162WyRtdkpCLiAAOAa3jCZmudygpMxtPf3ABr0wdfX9s/edit?usp=sharing"
+							target="_blank"
 						>
 							Resume <BsFillPersonLinesFill size={30} />
 						</a>

@@ -12,7 +12,7 @@ const Projects = () => {
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8">
-					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-red-600">
+					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#F30EC6]">
 						Projects
 					</p>
 					<p className="pt-4">Check out some of my recent projects</p>
@@ -27,16 +27,27 @@ const Projects = () => {
 					>
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wide">
-								React JS Application
-							</span>
+							<h1 className="text-3xl font-bold  text-white tracking-wide text-center">
+								Spooky Space
+							</h1>
+							<h3 className="text-xl font-semibold text-white tracking-wide text-center">
+								React, Ruby on Rails, & Tailwind CSS
+							</h3>
+							<p className="text-sm font-normal text-white tracking-wide text-center !important">
+								Horror movie app using an external API to allow users to
+								discover new horror movies, save them, rate them, and comment on
+								them.
+							</p>
 							<div className="pt-8 text-center">
-								<a href="https://github.com/Spooky-space">
+								<a href="https://github.com/Spooky-space" target="_blank">
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Code
 									</button>
 								</a>
-								<a href="https://spooky-space-frontend.onrender.com">
+								<a
+									href="https://spooky-space-frontend.onrender.com"
+									target="_blank"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
 									</button>
@@ -52,16 +63,29 @@ const Projects = () => {
 					>
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wide">
-								Ruby Application
-							</span>
+							<h1 className="text-3xl font-bold  text-white tracking-wide text-center">
+								Flat Finder
+							</h1>
+							<h3 className="text-xl font-semibold text-white tracking-wide text-center">
+								React & Ruby on Rails
+							</h3>
+							<p className="text-sm font-normal text-white tracking-wide text-center !important">
+								Apartment listing app allowing users to list apartments, and
+								view apartments other users have list.
+							</p>
 							<div className="pt-8 text-center">
-								<a href="https://github.com/MattBarnabo/flat-finder-frontend">
+								<a
+									href="https://github.com/MattBarnabo/flat-finder-frontend"
+									target="_blank"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Frontend
 									</button>
 								</a>
-								<a href="https://github.com/MattBarnabo/flat-finder-backend">
+								<a
+									href="https://github.com/MattBarnabo/flat-finder-backend"
+									target="_blank"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Backend
 									</button>
@@ -82,16 +106,29 @@ const Projects = () => {
 					>
 						{/* Hover Effect */}
 						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wide text-center">
-								React & Ruby on Rails Application
-							</span>
+							<h1 className="text-3xl font-bold  text-white tracking-wide text-center">
+								Perrfect Match
+							</h1>
+							<h3 className="text-xl font-semibold text-white tracking-wide text-center">
+								React & Ruby on Rails
+							</h3>
+							<p className="text-sm font-normal text-white tracking-wide text-center !important">
+								Tinder for Cats! Find the cat you want to adopt by swiping
+								through the list.
+							</p>
 							<div className="pt-8 text-center">
-								<a href="https://github.com/MattBarnabo/Perrfect-Match-frontend">
+								<a
+									href="https://github.com/MattBarnabo/Perrfect-Match-frontend"
+									target="_blank"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Frontend
 									</button>
 								</a>
-								<a href="https://github.com/MattBarnabo/perrfect-match-backend">
+								<a
+									href="https://github.com/MattBarnabo/perrfect-match-backend"
+									target="_blank"
+								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Backend
 									</button>
