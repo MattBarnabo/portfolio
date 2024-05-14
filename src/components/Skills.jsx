@@ -33,7 +33,7 @@ const Skills = () => {
 						<img className="w-20 mx-auto" src={Rails} alt="Rails icon" />
 						<p className="my-4">RAILS</p>
 					</div>
-					<div className=" shadow-sm shadow-[#040c16] hover:scale-110 duration-500">
+					<div className="hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
 						<p className="my-4">TAILWIND</p>
 					</div>
