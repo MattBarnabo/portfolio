@@ -47,6 +47,7 @@ const Projects = () => {
 								<a
 									href="https://spooky-space-frontend.onrender.com"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Demo
@@ -77,6 +78,7 @@ const Projects = () => {
 								<a
 									href="https://github.com/MattBarnabo/flat-finder-frontend"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Frontend
@@ -85,6 +87,7 @@ const Projects = () => {
 								<a
 									href="https://github.com/MattBarnabo/flat-finder-backend"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Backend
@@ -120,6 +123,7 @@ const Projects = () => {
 								<a
 									href="https://github.com/MattBarnabo/Perrfect-Match-frontend"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Frontend
@@ -128,6 +132,7 @@ const Projects = () => {
 								<a
 									href="https://github.com/MattBarnabo/perrfect-match-backend"
 									target="_blank"
+									rel="noreferrer"
 								>
 									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
 										Backend
