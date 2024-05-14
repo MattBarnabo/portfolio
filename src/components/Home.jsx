@@ -1,7 +1,6 @@
 import React from "react"
 import { HiArrowNarrowRight } from "react-icons/hi"
 import { Link } from "react-scroll"
-import Background from "../assets/background.jpg"
 const Home = ({ textBounce }) => {
 	const myName = "Matt Barnabo".split("")
 	const dev = "I'm a Full Stack Developer".split("")
