@@ -4,7 +4,6 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
-import MouseScroll from "./components/MouseScroll"
 import Cursor from "./components/Cursor"
 import TextSpan from "./components/TextSpan"
 import Contact from "./components/Contact"
@@ -24,7 +23,6 @@ const App = () => {
 				<div>
 					<Navbar />
 					<Home textBounce={textBounce} />
-					<MouseScroll />
 					<About />
 					<Skills />
 					<Projects />

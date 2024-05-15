@@ -1,6 +1,8 @@
 import React from "react"
 import { HiArrowNarrowRight } from "react-icons/hi"
 import { Link } from "react-scroll"
+import MouseScroll from "./MouseScroll"
+
 const Home = ({ textBounce }) => {
 	const myName = "Matt Barnabo".split("")
 	const dev = "I'm a Full Stack Developer".split("")
@@ -13,7 +15,7 @@ const Home = ({ textBounce }) => {
 				<h1 className="text-4xl sm:text-7xl font-bold text-[whitesmoke]">
 					{textBounce(myName)}
 				</h1>
-				<h2 className=" text-4xl sm:text-7xl font-bold text-[#cac6c6]">
+				<h2 className=" text-4xl sm:text-7xl font-bold text-[#cac6c6] text-wrap ">
 					{textBounce(dev)}
 				</h2>
 				<p className="text-[#cac6c6] py-4 max-w-[700px] font-medium text-lg">
@@ -32,6 +34,7 @@ const Home = ({ textBounce }) => {
 					</button>
 				</div>
 			</div>
+			<MouseScroll />
 		</div>
 	)
 }

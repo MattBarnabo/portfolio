@@ -18,7 +18,12 @@ const Navbar = () => {
 					duration={500}
 					className="font-bold button"
 				>
-					<img src={Logo} alt="Logo" style={{ width: "115px" }} />
+					<img
+						src={Logo}
+						alt="Logo"
+						style={{ width: "115px" }}
+						className="md:flex hidden"
+					/>
 				</Link>
 			</div>
 
@@ -86,7 +91,7 @@ const Navbar = () => {
 				className={
 					!nav
 						? "hidden"
-						: "absolute top-0 left-0 w-full h-screen bg-[#000201] flex flex-col justify-center items-center -z-50 !important"
+						: "absolute top-0 left-0 w-full h-screen bg-[#000201] flex flex-col justify-center items-center"
 				}
 			>
 				<li className="py-6 text-4xl">
@@ -154,7 +159,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://www.linkedin.com/in/mattbarnabo/"
 							target="_blank"
-							rel="noreferrer"
+							rel="noopener noreferrer"
 						>
 							Linkedin <FaLinkedin size={30} />
 						</a>
@@ -164,7 +169,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://github.com/MattBarnabo"
 							target="_blank"
-							rel="noreferrer"
+							rel="noopener noreferrer"
 						>
 							GitHub
 							<FaGithub size={30} />
@@ -175,7 +180,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://mail.google.com/mail/?view=cm&fs=1&to=mattbarnabo@gmail.com&su=SUBJECT&body=BODY&bcc=mattbarnabo@gmail.com"
 							target="_blank"
-							rel="noreferrer"
+							rel="noopener noreferrer"
 						>
 							Email <HiOutlineMail size={30} />
 						</a>
@@ -185,7 +190,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://docs.google.com/document/d/162WyRtdkpCLiAAOAa3jCZmudygpMxtPf3ABr0wdfX9s/edit?usp=sharing"
 							target="_blank"
-							rel="noreferrer"
+							rel="noopener noreferrer"
 						>
 							Resume <BsFillPersonLinesFill size={30} />
 						</a>
